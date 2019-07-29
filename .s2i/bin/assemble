@@ -1,5 +1,9 @@
 echo "assemble"
 ls -l
 ls -l /tmp
+
+echo "LOCAL_SOURCE_DIRL: $LOCAL_SOURCE_DIR"
+ls -l $LOCAL_SOURCE_DIR
+
 mkdir -p /opt/apps
 mv /tmp/test-micro2-springboot.war /opt/apps/.

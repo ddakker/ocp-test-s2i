@@ -1,0 +1,3 @@
+echo "assemble"
+mkdir -p /opt/apps
+mv /tmp/test-micro2-springboot.war /opt/apps/.

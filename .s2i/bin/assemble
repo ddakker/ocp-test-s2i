@@ -1,6 +1,7 @@
 echo "assemble"
 ls -l
 ls -l /tmp
+ls -l /tmp/src
 
 echo "LOCAL_SOURCE_DIRL: $LOCAL_SOURCE_DIR"
 ls -l $LOCAL_SOURCE_DIR
